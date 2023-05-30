@@ -210,105 +210,105 @@ class _DataTableExample extends State<MyApp> {
                   ),
                 ],
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Expanded(
-                    child: Padding(
-                      padding: EdgeInsets.only(
-                        top: 5,
-                        bottom: 5,
-                        left: 0,
-                        right: 5,
-                      ),
-                      child: Card(
-                        elevation: 1,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(5.0),
-                        ),
-                        child: InkWell(
-                          onTap: () {},
-                          child: Padding(
-                            padding: EdgeInsets.symmetric(
-                                vertical: 17, horizontal: 20),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                CircleAvatar(
-                                  backgroundColor: Colors.redAccent.shade100,
-                                  radius: 27,
-                                  child: Icon(Icons.thermostat),
-                                ),
-                                SizedBox(
-                                  height: 8,
-                                ),
-                                Text(
-                                  "10 min",
-                                  style: TextStyle(
-                                      fontSize: 30,
-                                      fontWeight: FontWeight.w700,
-                                      color: Colors.redAccent),
-                                ),
-                                const Text(
-                                  "Cx",
-                                  style: TextStyle(color: Colors.redAccent),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Expanded(
-                    child: Padding(
-                      padding: EdgeInsets.only(
-                        top: 5,
-                        bottom: 5,
-                        left: 0,
-                        right: 5,
-                      ),
-                      child: Card(
-                        elevation: 1,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(5.0),
-                        ),
-                        child: InkWell(
-                          onTap: () {},
-                          child: Padding(
-                            padding: EdgeInsets.symmetric(
-                                vertical: 17, horizontal: 20),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                CircleAvatar(
-                                  backgroundColor: Colors.tealAccent.shade100,
-                                  radius: 27,
-                                  child: Icon(Icons.thermostat),
-                                ),
-                                SizedBox(
-                                  height: 8,
-                                ),
-                                Text(
-                                  "12 min",
-                                  style: TextStyle(
-                                      fontSize: 30,
-                                      fontWeight: FontWeight.w700,
-                                      color: Colors.tealAccent),
-                                ),
-                                const Text(
-                                  "Dx",
-                                  style: TextStyle(color: Colors.tealAccent),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
+              // Row(
+              //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              //   children: [
+              //     Expanded(
+              //       child: Padding(
+              //         padding: EdgeInsets.only(
+              //           top: 5,
+              //           bottom: 5,
+              //           left: 0,
+              //           right: 5,
+              //         ),
+              //         child: Card(
+              //           elevation: 1,
+              //           shape: RoundedRectangleBorder(
+              //             borderRadius: BorderRadius.circular(5.0),
+              //           ),
+              //           child: InkWell(
+              //             onTap: () {},
+              //             child: Padding(
+              //               padding: EdgeInsets.symmetric(
+              //                   vertical: 17, horizontal: 20),
+              //               child: Column(
+              //                 crossAxisAlignment: CrossAxisAlignment.start,
+              //                 children: [
+              //                   CircleAvatar(
+              //                     backgroundColor: Colors.redAccent.shade100,
+              //                     radius: 27,
+              //                     child: Icon(Icons.thermostat),
+              //                   ),
+              //                   SizedBox(
+              //                     height: 8,
+              //                   ),
+              //                   Text(
+              //                     "10 min",
+              //                     style: TextStyle(
+              //                         fontSize: 30,
+              //                         fontWeight: FontWeight.w700,
+              //                         color: Colors.redAccent),
+              //                   ),
+              //                   const Text(
+              //                     "Cx",
+              //                     style: TextStyle(color: Colors.redAccent),
+              //                   ),
+              //                 ],
+              //               ),
+              //             ),
+              //           ),
+              //         ),
+              //       ),
+              //     ),
+              //     Expanded(
+              //       child: Padding(
+              //         padding: EdgeInsets.only(
+              //           top: 5,
+              //           bottom: 5,
+              //           left: 0,
+              //           right: 5,
+              //         ),
+              //         child: Card(
+              //           elevation: 1,
+              //           shape: RoundedRectangleBorder(
+              //             borderRadius: BorderRadius.circular(5.0),
+              //           ),
+              //           child: InkWell(
+              //             onTap: () {},
+              //             child: Padding(
+              //               padding: EdgeInsets.symmetric(
+              //                   vertical: 17, horizontal: 20),
+              //               child: Column(
+              //                 crossAxisAlignment: CrossAxisAlignment.start,
+              //                 children: [
+              //                   CircleAvatar(
+              //                     backgroundColor: Colors.tealAccent.shade100,
+              //                     radius: 27,
+              //                     child: Icon(Icons.thermostat),
+              //                   ),
+              //                   SizedBox(
+              //                     height: 8,
+              //                   ),
+              //                   Text(
+              //                     "12 min",
+              //                     style: TextStyle(
+              //                         fontSize: 30,
+              //                         fontWeight: FontWeight.w700,
+              //                         color: Colors.tealAccent),
+              //                   ),
+              //                   const Text(
+              //                     "Dx",
+              //                     style: TextStyle(color: Colors.tealAccent),
+              //                   ),
+              //                 ],
+              //               ),
+              //             ),
+              //           ),
+              //         ),
+              //       ),
+              //     ),
+              //   ],
+              // ),
             ],
           ),
           SizedBox(
@@ -345,7 +345,7 @@ class _DataTableExample extends State<MyApp> {
               Expanded(
                   child: Center(
                 child: Text(
-                  'DS18B20\nTempérature',
+                  'Température\nde stockage',
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.center,
                 ),
@@ -511,7 +511,7 @@ class _DataTableExample extends State<MyApp> {
         home: Scaffold(
       appBar: AppBar(
         title: const Text(
-          "TKZ Engineering",
+          "TAKAZ ENG",
           style: TextStyle(fontWeight: FontWeight.bold, color: Colors.green),
         ),
         elevation: 0,
