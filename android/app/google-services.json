@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "961756202159",
+    "firebase_url": "https://sechoire-hybride-tkz-default-rtdb.firebaseio.com",
+    "project_id": "sechoire-hybride-tkz",
+    "storage_bucket": "sechoire-hybride-tkz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961756202159:android:7cd67169b4d0a9ad47005a",
+        "android_client_info": {
+          "package_name": "com.ibuotech.tkz_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961756202159-12m53k0m28q6o8ltb32kjltjdhn036v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj09ig3FIcoFPAbm_V8ThR0bWDFG5YlhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961756202159-12m53k0m28q6o8ltb32kjltjdhn036v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961756202159:android:8cb57916ac11a3f747005a",
+        "android_client_info": {
+          "package_name": "io.tkz.tkz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961756202159-12m53k0m28q6o8ltb32kjltjdhn036v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj09ig3FIcoFPAbm_V8ThR0bWDFG5YlhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961756202159-12m53k0m28q6o8ltb32kjltjdhn036v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
